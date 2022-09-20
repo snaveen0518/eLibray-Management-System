@@ -1,0 +1,12 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [TranID]
+      ,[LibCardId]
+      ,[BookId]
+      ,[IssueDate]
+      ,[ReceiptDate]
+      ,[FindAnyFault]
+      ,[FaultDescription]
+      ,[LateFine]
+      ,[IssuedUserID]
+      ,[ReceiveUserID]
+  FROM [OnlineLib].[dbo].[library_transaction]
